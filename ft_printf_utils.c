@@ -6,7 +6,7 @@
 /*   By: ckarakus <ckarakus@student.42istanbul.com> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 09:37:38 by ckarakus          #+#    #+#             */
-/*   Updated: 2022/12/28 14:24:25 by ckarakus         ###   ########.fr       */
+/*   Updated: 2022/12/28 19:23:39 by ckarakus         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,24 +42,4 @@ int	ft_putnumber(int num)
 		return (ft_putconvert(num, "0123456789") + 1);
 	}
 	return (ft_putconvert(num, "0123456789"));
-}
-
-size_t	ft_nlen(int n)
-{
-	size_t	len;
-
-	len = 0;
-	if (n == 0)
-		len++;
-	else if (n < 0)
-	{
-		len++;
-		n *= -1;
-	}
-	while (n != 0)
-	{
-		n /= 10;
-		len++;
-	}
-	return (len);
 }
