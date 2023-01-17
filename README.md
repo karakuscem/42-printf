@@ -9,3 +9,7 @@ Bu repo 42İstanbul'un printf projesi için kendi çözümlerimi içermektedir. 
 ## Acquirements - Kazanımlar
 
 -How to use Variadic functions - Variadic fonksiyonların kullanımı
+
+## Result - Sonuç
+
+![Printf](https://github.com/karakuscem/42-printf/blob/main/src/100.png)
